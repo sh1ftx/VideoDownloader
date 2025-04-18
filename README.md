@@ -44,13 +44,13 @@ cd VideoDownloader
 
 ### 2. Execute o script de configuração
 
-Para configurar o ambiente automaticamente, incluindo a instalação das dependências (yt-dlp e ffmpeg), execute o script `setup.sh`. Esse script criará um ambiente virtual, instalará as dependências necessárias e compilará o código C++.
+Para configurar o ambiente automaticamente, incluindo a instalação das dependências (yt-dlp e ffmpeg), execute o script `baixar.sh`. Esse script criará um ambiente virtual, instalará as dependências necessárias e compilará o código C++.
 
 No terminal, execute:
 
 ```bash
-chmod +x setup.sh  # Torna o script executável
-./setup.sh         # Executa a configuração
+chmod +x baixar.sh  # Torna o script executável
+./baixar.sh LINK_AQUI     # Executa a configuração
 ```
 
 ### 3. Execução
@@ -58,7 +58,7 @@ chmod +x setup.sh  # Torna o script executável
 Após a configuração ser concluída, o programa estará pronto para ser usado. Para baixar um vídeo do YouTube, basta rodar o comando abaixo substituindo `LINK_AQUI` pela URL do vídeo desejado.
 
 ```bash
-baixar LINK_AQUI
+baixar.sh LINK_AQUI
 ```
 
 Exemplo de uso:
@@ -79,9 +79,9 @@ O script **download.py** utiliza a biblioteca **yt-dlp** para realizar o downloa
 
 O programa C++ **main.cpp** recebe o link do vídeo, executa o script Python `download.py` e gerencia o fluxo de execução de forma simples, garantindo que o processo de download seja iniciado sem erros.
 
-### Script de Setup: `setup.sh`
+### Script de Setup: `baixar.sh`
 
-O script **setup.sh** automatiza todo o processo de instalação:
+O script **baixar.sh** automatiza todo o processo de instalação:
 
 1. Cria um ambiente virtual Python.
 2. Instala **yt-dlp** e **ffmpeg** no ambiente virtual.
@@ -138,7 +138,7 @@ Este projeto utiliza a biblioteca **yt-dlp**, que é um fork melhorado do **yout
 
 ```bash
 # Após a instalação
-$ baixar https://youtu.be/pNU-zR8GlJM?si=B02bms_QaOejAprf
+$ baixar.sh https://youtu.be/pNU-zR8GlJM?si=B02bms_QaOejAprf
 ```
 
 Isso fará o download do vídeo do YouTube e o salvará no seu diretório atual.
