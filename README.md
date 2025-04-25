@@ -1,4 +1,13 @@
-# VideoDownloader
+```
+____   ____ .___          ________                      .__                    .___ 
+\   \ /   /_| _/____  ____\______ \   ______  _  ______ |  |   _________     __| _/ 
+ \   Y   / __ |/ __ \/  _ \|    |  \ /  _ \ \/ \/ /    \|  |  /  _ \__  \   / __ |  
+  \     / /_/ \  ___(  <_> )    `   (  <_> )     /   |  \  |_(  <_> ) __ \_/ /_/ |  
+   \___/\____ |\___  >____/_______  /\____/ \/\_/|___|  /____/\____(____  /\____ |  
+             \/    \/             \/                  \/                \/      \/
+```
+
+---
 
 **VideoDownloader** é uma ferramenta de linha de comando simples e eficiente para baixar vídeos diretamente do YouTube. O projeto utiliza a poderosa biblioteca **yt-dlp** para o download de vídeos e **ffmpeg** para garantir a melhor qualidade possível. Tudo é configurado automaticamente para o usuário, facilitando a instalação e o uso.
 
